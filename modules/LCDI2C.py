@@ -86,7 +86,6 @@ def setupAuto():
         addr = 0x27
     if 0x3F in scan_addr:
         addr = 0x3F
-    print(hex(addr))
     if addr:
         setup(addr)
 
