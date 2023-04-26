@@ -1,4 +1,5 @@
 from machine import Pin, I2C
+import os
 
 machine = os.uname().machine
 if ("KidBright32" in machine) or ("KidMotor V4" in machine):
